@@ -51,11 +51,11 @@ let score =(correctCount/questions.length)*100;
 
 if (score >=80){
   console.log(`\nOverall Grade: ${score}%(${correctCount} of 5 responses correct)<<<`)
-  console.log(">>>Status:PASSED<<<")
+  console.log(">>>Status: PASSED<<<")
   
 }else{
   console.log(`\nOverall Grade: ${score}%(${correctCount} of 5 responses correct)<<<`)
-  console.log(">>>Status:FAILED<<<")
+  console.log(">>>Status: FAILED<<<")
   
 }
   let grade=score;  //TODO 3.2 use this variable to calculate the candidates score.
